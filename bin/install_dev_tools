@@ -12,5 +12,6 @@ if [[ "$response" != "y" ]]; then
   exit 1
 fi
 
-printf "Installing Java...\n"
-install_java "$JAVA_URL" "$JAVA_VOLUME_NAME"
+# Java gets installed via homebrew cask
+# printf "Installing Java...\n"
+# install_java "$JAVA_URL" "$JAVA_VOLUME_NAME"

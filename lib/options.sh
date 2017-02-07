@@ -31,6 +31,7 @@ process_option() {
       bin/apply_basic_settings
       bin/install_dev_tools
       bin/install_homebrew
+      bin/install_caskapps
       bin/install_app_store
       bin/install_applications
       bin/install_extensions
@@ -47,6 +48,8 @@ process_option() {
       caffeinate_machine;;
     'ua')
       uninstall_application;;
+    'uc')
+      uninstall_caskapps;;
     'ux')
       uninstall_extension;;
     'ra')

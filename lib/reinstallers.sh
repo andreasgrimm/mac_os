@@ -3,6 +3,13 @@
 # DESCRIPTION
 # Defines reinstall functions.
 
+# Reinstall Cask application.
+reinstall_caskapps() {
+  uninstall_caskapps
+  bin/install_caskapps
+}
+export -f reinstall_caskapps
+
 # Reinstall application.
 reinstall_application() {
   uninstall_application

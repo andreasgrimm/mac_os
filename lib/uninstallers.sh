@@ -28,6 +28,12 @@ uninstall_application() {
 }
 export -f uninstall_application
 
+# Uninstalls selected Cask application.
+uninstall_caskapps() {
+  printf "Not yet implemented!"
+}
+export -f uninstall_caskapps
+
 # Uninstalls selected extension.
 uninstall_extension() {
   # Only use environment keys that end with "EXTENSION_PATH".

@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 # DESCRIPTION
 # Performs restoration of backup data.
